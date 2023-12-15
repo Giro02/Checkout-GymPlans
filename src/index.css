@@ -1,13 +1,222 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0px;
+    font-size: large;
+
+}
+.layout{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100%;
+    width: 100%;
+    max-width: 1320px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mainbar{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow-x: hidden;
+    padding-right: 7%
+}
+.Background{
+    display: flex;
+    justify-content: center;
+    min-height: 150px;
+    flex-direction: column;
+    /* background-color: #f2f2ef; */
+    border: 1px solid #dcd0e0;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.CardContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.AccessionLayout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.PriceLayout{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.sidebar{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 20px;
+    min-width: 33%;
+    background-color: #f2f2ef
+}
+.AddCuponLayout{
+    margin-top: 25PX;
+    border-width: 1px 0px 1px 0px;
+    border-color: #dcd0e0;
+    border-style: solid;
+
+}
+.AddCupon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #0362a0;
+
+}
+.blackfridayCupom{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: rgba(36, 35, 35, 0.899);
+}
+.CupomBlack{
+    margin-top: 5px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.TicketCupom{
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.InputButton{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.CHOA{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.TotalPrice{
+    
+    font-weight: 500;
+    font-size: 22px;
+    
+}
+.TP{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: end;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 45px;
+    gap: 6px;
+}
+.Preco{
+    font-size: 26px;
+}
+.checkout{
+    cursor: pointer;
+    margin-top: 15px;
+    height: 40px;
+    border: solid 1px #ffb612;
+    border-radius: 200px;
+    background-color: #ffb612;
+    font-weight: bold;
+    font-size: 18px;
+}
+.btnAdd{
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    border: solid 1px #ffb612;
+    border-radius: 200px;
+    background-color: #ffb612;
+    font-weight: bold;
+    font-size: 18px;
+}
+.cupoumText{
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.PurchaseDet{
+    margin-top: 65px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1F2123;
+}
+.texto{
+    color:#1F2123;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.box-gap{
+    display: flex;
+    flex-direction: row;
+    gap:12px;
+    align-items: center;
+}
+
+.box-gap input[type="checkbox"]{
+  /* -webkit-appearance: none;
+  appearance: none; */
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 0.15em;
+  margin-right: 0.5em;
+  border: 0.05em solid #606060;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+}
+.Price{
+    font-size: 30px;
+}
+.CardExtra{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.fidelity{
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.Title-plan{
+    font-weight: bold;
+}
+.AddToPlan{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f2123e8;
+    margin-top: 45px;
+}
+.dolsign{
+    font-weight: bold;
+    font-size: 22px;
 }

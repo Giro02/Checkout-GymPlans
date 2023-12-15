@@ -1,0 +1,55 @@
+.bg-set{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 125px;
+    flex-direction: column;
+    border: 1px solid #dcd0e0;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.InputAdjust{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.CheckPlan{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.inputtitel{
+    color: rgba(36, 35, 35, 0.899);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.priceinou{
+    color: rgba(36, 35, 35, 0.899);
+    font-weight: bold;
+    font-size: 20px;
+}
+.InputText{
+    line-height: 22px;
+    font-size: 15px;
+    margin-left: 45px;
+}
+input[type="checkbox"]{
+    /* -webkit-appearance: none;
+    appearance: none; */
+    width: 1em;
+    height: 1em;
+    border-radius: 0.15em;
+    margin-right: 0.5em;
+    border: 0.05em solid #504f4f;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+  }
+  .PriceDecimal{
+    font-size: 20px;
+  }
