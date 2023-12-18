@@ -42,7 +42,7 @@ function App() {
     Energy: false,
   });
   const [ExtraAmount, setExtraAmount] = useState(0);
-  const [PlanAmount, setPlanAmount] = useState(119);
+  const [PlanAmount, setPlanAmount] = useState(199);
 
   //Function for the Inputs
   function ChangeState({ Name, Price }: ItemProps) {
@@ -176,7 +176,7 @@ Choose your teacher, define your goal and get more results! Ask your questions a
       </div>
       <div className="sidebar">
         <p className="PurchaseDet">PURCHASE DETAILS</p>
-        <p className="CHOA">Choosed Academy: ******</p>
+        <p className="CHOA">Choosed Gym: ******</p>
         <div className="AddCuponLayout">
           <div className="AddCupon" onClick={ChangeCupon}>
             <div className="TicketCupom">
