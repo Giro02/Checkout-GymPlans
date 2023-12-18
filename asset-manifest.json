@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Checkout-GymPlans/static/css/main.05a40daf.css",
+    "main.js": "/Checkout-GymPlans/static/js/main.7e313bf2.js",
+    "static/js/787.5cb3c1ab.chunk.js": "/Checkout-GymPlans/static/js/787.5cb3c1ab.chunk.js",
+    "index.html": "/Checkout-GymPlans/index.html",
+    "main.05a40daf.css.map": "/Checkout-GymPlans/static/css/main.05a40daf.css.map",
+    "main.7e313bf2.js.map": "/Checkout-GymPlans/static/js/main.7e313bf2.js.map",
+    "787.5cb3c1ab.chunk.js.map": "/Checkout-GymPlans/static/js/787.5cb3c1ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05a40daf.css",
+    "static/js/main.7e313bf2.js"
+  ]
+}
